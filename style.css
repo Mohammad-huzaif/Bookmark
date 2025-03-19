@@ -1,0 +1,77 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header Styling */
+header {
+    font-size: 2.5em;
+    font-weight: bold;
+    padding: 15px;
+    text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Links Container */
+article {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 90%;
+    max-width: 600px;
+}
+
+/* Bookmark Buttons */
+.bookmark {
+    display: flex;
+    justify-content: center;
+}
+
+.bookmark a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(45deg, #ff6a00, #ee0979);
+    border-radius: 10px;
+    width: 100%;
+    gap: 10px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.3);
+}
+
+.bookmark a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.bookmark a:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 8px 15px rgba(255, 0, 0, 0.5);
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.7);
+}
